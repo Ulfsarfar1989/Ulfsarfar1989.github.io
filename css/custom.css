@@ -46,18 +46,40 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 300;
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 18px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
 
+
+
 @media(min-width:768px) {
+	
+	.intro {
+	color: #fff;
+    background-color: yellowgreen;
+    padding: 120px;
+    text-align: left;
+	text-align: justify;
+}
+	img{
+	width:90%;
+	height:90%;
+	align-items: left;
+}
+	.grid-container {
+		display: grid;
+  		grid-template-columns: auto auto auto;
+		align-items: center;
+		
+	}
+	
     header {
         min-height: 100%;
     }
@@ -97,12 +119,15 @@ header .header-content .header-content-inner p {
 .intro {
 	color: #fff;
     background-color: yellowgreen;
-    padding: 70px 0;
-    text-align: center;
+    padding: 120px;
+	padding-left: auto;
+	padding-right: auto;
+    text-align: left;
+	text-align: justify;
 }
 
 .content {
-    padding: 100px 0;
+    padding: 40px;
 }
 
 .content-2 {
@@ -411,6 +436,8 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background: #222;
 }
+
+
 
 img::selection {
     color: #fff;
