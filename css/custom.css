@@ -221,8 +221,8 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
-    background-color: #fff;
+	border:#000000;
+    background-color: #222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -260,7 +260,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+		border: #000000;
         background-color: transparent;
     }
 
@@ -271,7 +271,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #222;
     }
 
     .navbar-default .nav > li>a,
@@ -281,11 +281,11 @@ header .header-content .header-content-inner p {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #222;
     }
 
     .navbar-default.affix {
-        border-color: #222;
+        border: #000000;
         background-color: #222;
         box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.1);
     }
@@ -312,9 +312,9 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
+
     color: #222;
-    background-color: #fff;
+    background-color: #222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -326,15 +326,15 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #eee;
+    border-color: #222;
     color: #222;
-    background-color: #eee;
+    background-color: #222;
 }
 
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    background-image: none;
+    background: #222;
 }
 
 .btn-default.disabled,
@@ -355,18 +355,18 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-    border-color: #fff;
-    background-color: #fff;
+    border-color: #222;
+    background-color: #222;
 }
 
 .btn-default .badge {
-    color: #fff;
+    color: #222;
     background-color: #222;
 }
 
 .btn-primary {
     border-color: yellowgreen;
-    color: #fff;
+    color: #222;
     background-color: yellowgreen;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -380,7 +380,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: limegreen;
-    color: #fff;
+    color: #222;
     background-color: limegreen;
 }
 
@@ -414,7 +414,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: yellowgreen;
-    background-color: #fff;
+    background-color: #222;
 }
 
 
