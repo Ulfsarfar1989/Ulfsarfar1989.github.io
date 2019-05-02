@@ -72,8 +72,8 @@ header .header-content .header-content-inner p {
 	text-align: justify;
 }
 	img{
-	width:90%;
-	height:90%;
+	width:100%;
+	height:100%;
 	align-items: left;
 }
 	.grid-container {
@@ -130,7 +130,7 @@ header .header-content .header-content-inner p {
 }
 
 .content {
-    padding: 40px;
+    padding: 10px;
 }
 
 .content-2 {
@@ -139,7 +139,7 @@ header .header-content .header-content-inner p {
 }
 
 .content-3 {
-	padding: 20px 0 40px;
+	padding: 20px 0 0;
 	text-align: center;
 }
 
