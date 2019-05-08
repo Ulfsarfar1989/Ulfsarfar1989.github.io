@@ -9,8 +9,7 @@ Although you can use them, for a more unique website, replace these images with 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="fb:app_id" content="{2314728668587473
-}"/>
+	
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Infórmate</title>
@@ -163,9 +162,32 @@ Although you can use them, for a more unique website, replace these images with 
                     <a href="#" class="btn btn-primary btn-lg">Check Now</a>               
             </div>
 		 <!-- Facebook comments -->
-		 <div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.3&appId=2314728668587473&autoLogAppEvents=1"></script>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{2314728668587473}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{3.3}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 		 
 		 <div class="fb-comments" data-href="https://ulfsarfar1989.github.io" data-width="" data-numposts="10"></div>
+		 
+		 <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
 		 
 		 
 		 		 <!-- Facebook comments -->
