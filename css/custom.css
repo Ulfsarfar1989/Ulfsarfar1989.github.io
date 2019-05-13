@@ -5,6 +5,8 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+
+
 a {
     color: yellowgreen;
     -webkit-transition: all .35s;
@@ -61,6 +63,50 @@ header .header-content .header-content-inner p {
 }
 
 
+/* Expanded box factores*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.z{
+	background-image: url("../images/8885_2018011305011022.png");
+		
+	background-size:cover;
+		background-position: 50% 50%;
+
+}
+
+
+/* Expanded box factores*/
 
 @media(min-width:768px) {
 	
@@ -155,7 +201,7 @@ header .header-content .header-content-inner p {
 }
 
 .promo-item {
-    height: 200px;
+    height: 300px;
     line-height: 180px;
     text-align: center;
 }
