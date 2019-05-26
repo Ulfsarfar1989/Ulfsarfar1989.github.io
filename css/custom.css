@@ -221,6 +221,12 @@ body {
 .item-1 {
 	background: url('../images/writing.jpg');
 	}
+.item-99{
+	background: url("../images/cortinas.png")
+}
+.item-100{
+	background: url("../images/infor.png")
+}
 	
 .item-2 {
 	background: url('../images/concert.jpg');
