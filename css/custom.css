@@ -5,6 +5,24 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+.edito {
+	color: #fff;
+    background-color: yellowgreen;
+    padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+.edito2 {
+	color: #fff;
+    background-color: #222;
+    padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 2%;
+
+}
 
 
 a {
